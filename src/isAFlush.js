@@ -9,9 +9,16 @@
  * - La valeur de la carte : 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K, A
  * - Le type de la carte : d => ♦, c => ♣, h => ♥, s => ♠
  */
+/* -mise en place des 2 tableaux
+   -à chaque valueCard doit correspondre le meme typeCard type 5 fois :true
 
+*/
 function isAFlush(cards) {
-  // CODE HERE
+  let d,c,h,s = 0
+  const valueCard = [2, 3, 4, 5, 6, 8, 9, 10,"J", "Q", "K","A"];
+  const typeCard = ["d","c","h","s"];
+  
+  
 }
 
 export { isAFlush };
