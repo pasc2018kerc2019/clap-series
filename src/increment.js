@@ -9,7 +9,14 @@
  */
 
 function increment(number) {
-  // CODE HERE
+  
+  if (isNaN(number)){
+    
+    return number +  "doit être un nombre !"
+  }
+  else {
+    return number +1;
+  }
 }
 
 export { increment };
