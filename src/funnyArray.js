@@ -11,7 +11,19 @@
  * - Si le tableau est vide, je retourne le mot 'rien'
  */
 function funnyArray(ary) {
-  // CODE HERE
+  if (ary.length === 0){
+    return "rien"
+  }
+  if (ary.length/2 !== isInteger){
+    let midArray = Math.floor(ary.length / 2)
+    let value = ary[midArray]
+    return value
+
+  }
+  else {
+    return value + ary[midArray-1]
+  }
+
 }
 
 export { funnyArray };
