@@ -10,9 +10,9 @@
 
 function increment(number) {
   
-  if (isNaN(number)){
+  if (isNaN(number) || String(number)){
     
-    return number +  "doit être un nombre !"
+    return number + " doit être un nombre !"
   }
   else {
     return number +1;
