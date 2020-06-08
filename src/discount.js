@@ -8,10 +8,10 @@
  */
 
 function discount(price, percent) {
-  let resultPrice = price -(price*percent/100)
+  let resultPrice = price - (price*percent/100)
   
   
-  return resultPrice + "€";
+  return resultPrice+" €";
 }
 
 export { discount };
