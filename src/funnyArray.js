@@ -14,7 +14,7 @@ function funnyArray(ary) {
   if (ary.length === 0){
     return "rien"
   }
-  if (ary.length/2 !== isInteger){
+  if (ary.length/2 !== Number.isInteger){
     let midArray = Math.floor(ary.length / 2)
     let value = ary[midArray]
     return value
@@ -22,6 +22,7 @@ function funnyArray(ary) {
   }
   else {
     return value + ary[midArray-1]
+    
   }
 
 }
