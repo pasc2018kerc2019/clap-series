@@ -9,8 +9,20 @@
  * 
  * On considère que la valeur de la carte prime sur le type de la carte
  */
+
+
+ /*mise en place de la hierarchie en fonction de l'index valueCard 0->12 desc
+
+
+ */
+
 function orderCards(cards) {
-  // CODE HERE
+ const valueCard = [2, 3, 4, 5, 6, 8, 9, 10,"J", "Q", "K","A"]
+ const typeCard = ["d","c","h","s"]
+ let result = [];
+ 
 }
+
+
 
 export { orderCards };
